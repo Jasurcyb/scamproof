@@ -1,6 +1,6 @@
 # 🛡️ ScamProof — Train your scam immunity with real AI
 
-**[▶ Live demo](http://jasurcyb.me/scamproof/)** — runs entirely in your browser, nothing ever leaves your device.
+**[▶ Live demo](https://jasurcyb.me/)** — runs entirely in your browser, nothing ever leaves your device.
 
 **ScamProof** is a free, private, senior-friendly web app that teaches people — especially adults 60+ — to recognize scam messages, fake-bank texts, OTP-theft tricks, romance fraud and AI voice-clone scams. Inside it runs a **genuine machine-learning model trained live in your browser** on 5,118 real, publicly labelled SMS messages. No cloud. No accounts. No API keys. Nothing ever leaves the device.
 

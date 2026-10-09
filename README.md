@@ -4,6 +4,8 @@
 
 > **The pitch:** Fraud awareness training is the most effective defence against scams — once a person can name the trick, the trick stops working. ScamProof turns that training into a 5-minute-a-day habit, and pairs it with an explainable AI scanner so users can check any suspicious message and *see exactly why* it looks like a scam.
 
+> **Why now:** In October 2026, Uzbekistan's Deputy Interior Minister Ramazon Ashropov reported **69,962 ICT-enabled crimes in just six months** — the vast majority of them money stolen from citizens through electronic payment systems. This project targets exactly those channels — payment-app scams, OTP theft, Telegram/WhatsApp social engineering — with training and an on-device scanner (multilingual lesson content is the first roadmap item).
+
 ---
 
 ## ✨ What it does

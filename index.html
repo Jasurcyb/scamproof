@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-text-scale="0" data-contrast="off">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScamProof — Train your scam immunity with real AI</title>
+  <meta name="description" content="ScamProof teaches seniors to spot scam texts, calls and AI-voice tricks. Includes a real machine-learning model trained live in your browser — 100% private, no cloud.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" data-go="home"><span class="logo">🛡️</span><span>Scam<b>Proof</b></span></a>
+    <nav class="nav">
+      <a data-go="home" data-page="home">Home</a>
+      <a data-go="academy" data-page="academy">Academy</a>
+      <a data-go="scanner" data-page="scanner">Scanner</a>
+      <a data-go="lab" data-page="lab">Model Lab</a>
+    </nav>
+    <div class="a11y" role="group" aria-label="Accessibility">
+      <button data-actscale="0" class="tiny ghost" title="Normal text" aria-label="Normal text">A</button>
+      <button data-actscale="1" class="tiny ghost" title="Large text" aria-label="Large text">A+</button>
+      <button data-actscale="2" class="tiny ghost" title="Extra large text" aria-label="Extra large text">A++</button>
+      <button id="contrastBtn" class="tiny ghost" title="High contrast mode" aria-label="High contrast mode">◐</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page" id="page-home"><div id="homeContent"></div></div>
+    <div class="page" id="page-academy"></div>
+    <div class="page" id="page-scanner"></div>
+    <div class="page" id="page-lab"></div>
+  </main>
+
+  <footer>
+    <div class="footwrap">
+      <p><b>ScamProof</b> is an educational project for the ML Empowerment Build Challenge 3.0. It is a learning tool, not a security product — never rely on any single tool to judge a message.</p>
+      <p class="muted">Dataset: <a href="https://archive.ics.uci.edu/dataset/228/sms+spam+collection" target="_blank" rel="noopener">UCI SMS Spam Collection</a> (Almeida, Hidalgo & Yamakami, 2011), CC BY 4.0 · Everything runs locally in your browser: no accounts, no cloud, no tracking.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/ml.js"></script>
+  <script src="js/lessons.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/academy.js"></script>
+  <script src="js/scanner.js"></script>
+  <script src="js/lab.js"></script>
+</body>
+</html>

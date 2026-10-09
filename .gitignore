@@ -1,0 +1,10 @@
+# agent-tooling internal state (not project code)
+.mimosa/
+tools/.mimosa/
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+
+# internal submission draft - keep local only
+SUBMISSION.md
